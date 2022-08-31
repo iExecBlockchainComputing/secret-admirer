@@ -35,9 +35,9 @@ Requester secrets are tied to the requester, they are t obe set before launching
 a prompt will ask you to set the value of the secret and to sign it, so that it can be pushed to the SMS.
 
 ## ens registry
-Assets can now be registered in the domain *users.iexec.eth*: 
+Assets can now be registered in the domains *apps|users|pools|datasets.iexec.eth*: 
 
-    iexec ens register secretadmirer --domain users.iexec.eth --for <app_address>
+    iexec ens register secretadmirer --domain apps.iexec.eth --for <app_address>
 
 A lookup feature as well as domain resolution are also available in the documentation.
 
